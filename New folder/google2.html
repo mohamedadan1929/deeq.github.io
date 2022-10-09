@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>google sign in</title>
+    <style>
+        img{
+            height: 80px;
+            margin-left: 8px;
+        }
+        #p1{
+            font-size: 30px;
+            margin-top: 0px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        input{
+            width: 370px;
+            height: 25px;
+            padding: 10px;
+            margin-left: 10px;
+            font-size: 18px;
+            border-radius:8px ;
+            border: 1px solid #dadcdf;
+            margin-top: 10px;
+            margin-bottom: 12px;
+        }
+        #p2{
+            color: rgb(106, 107, 107);
+            margin-left: 25px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        #a1{
+            font-size: 20px;
+            text-decoration: none;
+            color: blue;
+            margin-left: 15px;  
+        }
+        button{
+            margin-left: 180px;
+            color: white;
+            background-color: #1676f3;
+            font-size: 18px;
+            font-weight: bold;
+            width: 95px;
+            border: 1px solid #1676f3;
+            padding: 10px;
+            border-radius: 8px;
+        }
+        button:hover{
+            cursor: pointer;
+            opacity: 0.9;
+        }
+        label{
+            font-size: 17px;
+            opacity: 0.8;
+            margin-left:0px ;
+        }
+        select{
+            border: 1px solid white;
+        }
+        ul{
+            list-style-type: none;
+            margin-top: 30px;
+        }
+        li{
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="Images/google.png" alt="">
+        <p id="p1">Create your Google Account</p>
+        <input type="text" name="fisrtname" placeholder="First name" required><br>
+        <input type="text" name="lastname" placeholder="Second name" required><br>
+        <input type="text" name="username" placeholder="Username" required><br>
+        <p id="p2">You can use letters,numbers & periods</p><br>
+        <a id="a1" href="#">Use my current email address instead</a><br><br><br>
+        <input type="pwd" name="username" placeholder="password" required><br>
+        <input type="pwd" name="username" placeholder="confirm" required><br>
+        <p id="p2">Use 8 or more characters with a mix of letters,numbers&symbols</p><br><br><br>
+        <a id="a1" href="#">Sign in instead</a>
+        <button>Next</button><br><br>
+        <ul>
+            <li>
+                <label>English(united states)</label>
+                <select name="languages" id="">
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>     
+                </select>
+            </li>
+            </ul>
+    </div>
+</body>
+</html>
